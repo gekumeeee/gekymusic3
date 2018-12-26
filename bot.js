@@ -3,7 +3,7 @@ const client = new Discord.Client();
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-   client.user.setActivity("♥  !!!play  ♥",{type: 'PLAYING'})
+   client.user.setGame(`♥ !!!play ♥ `,'https://www.twitch.tv/ℕ o v a Codes♥');
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
